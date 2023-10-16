@@ -55,13 +55,35 @@
         display: flex;
         gap: 1.5em;
       }
-
       .col {
         flex-basis: 100%;
         flex-grow: 1;
       }
-      .col-lg-5 img{
-        padding-bottom: 100px;
+      p {
+        font-weight: 500;
+        font-size: 1.2em;
+      }
+      .social-box {
+        padding: 20px;
+        padding-bottom: 40px;
+        border-radius: 5px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        margin-top: 120px;
+        max-width: 500px;
+      }
+
+      .social-icons {
+        text-align: center;
+      }
+
+      .social-icons a {
+        color: #333;
+        text-decoration: none;
+        margin: 10px;
+      }
+      h3 {
+        padding-bottom: 40px;
+        text-align: center;
       }
     </style>
   </head>
@@ -112,34 +134,60 @@
     <!-- Two paragraphs of text describing the page slightly -->
     <main>
       <div class="jumbotron">
-        <h1 class="bordered-text">Welcome to our Vinyl Shop</h1>
-        <p class="bordered-text">Discover a world of music on vinyl records</p>
       </div>
       <div class="container">
         <div class="row">
           <p class="col-md-6">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati
-            quibusdam sint, delectus animi eligendi similique praesentium
-            laborum, harum voluptates eius deserunt odit voluptate vel
-            doloremque est veritatis voluptatem dolorum autem?
+            Welcome to caros vinyl shop! Here we have a great seletion of
+            amazing vinyls and records that are sure to satisfy anyone's need
+            for progressive and award winning music.
           </p>
           <p class="col-md-6">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facilis
-            iste eaque, fuga tenetur nostrum, aliquam modi sunt eos sit suscipit
-            assumenda, officiis quos in dicta ipsum nihil optio possimus.
-            Assumenda?
+            Located here in beautiful Phoenix, AZ, caros vinyls was established
+            in 2023 and continues to serve the community the best music and the latest releases for you to enjoy at home
           </p>
-          <p class="col-md-6">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam,
-            voluptatem suscipit molestiae consectetur praesentium esse et ad
-            quas alias accusamus voluptas quidem fuga odio quisquam quam vero
-            doloribus aspernatur ab!
-          </p>
+          <ul class="col-md-6">
+            <li>
+              Explore the page using the navigation links and images at the top
+              of the page.
+            </li>
+            <li>
+              Visit the products page to view vinyls on sale and add them to
+              your cart for purchase :)
+            </li>
+          </ul>
           <img
             src="images/record-store.jpg"
             alt="inside store picutre"
             class="col-lg-5"
+            style="padding-bottom: 150px;"
           />
+        </div>
+      </div>
+      <div class="container social-box">
+        <br />
+        <h3>Follow Us</h3>
+        <div class="social-icons">
+          <a href="homepage.html">
+            <img
+              src="https://cdn3.iconfinder.com/data/icons/glypho-social-and-other-logos/64/logo-facebook-512.png"
+              alt="facebook icon"
+              height="25px"
+            />
+          </a>
+          <a href="homepage.html">
+            <img
+              src="https://cdn-icons-png.flaticon.com/512/733/733635.png"
+              alt="twitter icon"
+              height="25px"
+          /></a>
+          <a href="homepage.html">
+            <img
+              src="https://cdn-icons-png.flaticon.com/512/1384/1384031.png"
+              alt="instagram icon"
+              height="25px"
+            />
+          </a>
         </div>
       </div>
       <script

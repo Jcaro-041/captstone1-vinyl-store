@@ -12076,4 +12076,7 @@ textarea.form-control-lg {
 .card-img-top{
   background-color: var(--#ffaa6a);
 }
+.social-icons a{
+  padding-bottom: 30px;
+}
 /*# sourceMappingURL=bootstrap.css.map */
