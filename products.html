@@ -6,42 +6,42 @@
     <title>Products</title>
     <link rel="stylesheet" href="css/bootstrap.css" />
     <style>
-        li{
-          font-size: 25px;
-          padding: 25px;
-        }
-        input{
-          width: 25%;
-          height: 50px;
-          max-width: 400px;
-          min-width: 100px;
-        }
-        h3{
-          padding-bottom: 40px;
-          text-align: center;
-        }
-        body {
-          background-image: linear-gradient(to bottom, #ffaa6a, #d6925aa4);
+      li {
+        font-size: 25px;
+        padding: 25px;
+      }
+      input {
+        width: 25%;
+        height: 50px;
+        max-width: 400px;
+        min-width: 100px;
+      }
+      h3 {
+        padding-bottom: 40px;
+        text-align: center;
+      }
+      body {
+        background-image: linear-gradient(to bottom, #ffaa6a, #d6925aa4);
+        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+      }
+      .social-box {
+        padding: 20px;
+        border-radius: 5px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        margin-top: 120px;
+        max-width: 500px;
+      }
 
-        }
-        .social-box {
-            padding: 20px;
-            border-radius: 5px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-            margin-top: 120px;
-            max-width: 500px;
-        }
+      .social-icons {
+        text-align: center;
+      }
 
-        .social-icons {
-            text-align: center;
-        }
-
-        .social-icons a {
-            color: #333;
-            text-decoration: none;
-            margin: 10px;
-        }
-      </style>
+      .social-icons a {
+        color: #333;
+        text-decoration: none;
+        margin: 10px;
+      }
+    </style>
   </head>
   <body>
     <nav
@@ -71,14 +71,10 @@
         </div>
         <ul class="navbar-nav me-auto">
           <li class="nav-item">
-            <a class="nav-link" href="user-sign-in.html"
-              >Login</a
-            >
+            <a class="nav-link" href="user-sign-in.html">Login</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="user-registration.html"
-              >Register</a
-            >
+            <a class="nav-link" href="user-registration.html">Register</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="checkout.html">
@@ -88,177 +84,272 @@
         </ul>
       </div>
     </nav>
-  <main class="container">
-    <h3 class="text-center">
-        Our products catalog 
-    </h3>
-      <br>
-    <div class="row">
-      <div class="col-md-4">
-    <div class="card h-100" style="width: 25rem; padding: 0px; border: 0px;">
-      <img class="card-img-top rounded" src="images/igor.jpg" alt="Card image cap">
-      <div class="card-body">
-        <h5 class="card-title">IGOR</h5>
-        <p class="card-text overflow-auto">
-          Tyler The Creator really wanted to perfect his craft with this album after coming out with his 
-          previous project that really showed how versitile and intimiate Tyler could be.
-        </p>
-        <h4 class="card-text">Best track off album</h4>
-        <!--The template below is perfect for the cards-->
-        <iframe
-          style="border-radius: 12px"
-          src="https://open.spotify.com/embed/track/0fv2KH6hac06J86hBUTcSf?utm_source=generator"
-          width="366px"
-          height="82vw"
-          frameborder="0"
-          allowfullscreen=""
-          allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
-          loading="lazy"
-        ></iframe>
-        <a href="checkout.html" class="btn btn-primary">Add to cart</a>
+    <main class="container">
+      <h3 class="text-center">Our products catalog</h3>
+      <br />
+      <div class="row">
+        <div class="card-group">
+          <div class="col-md-4">
+            <div
+              class="card h-100"
+              style="width: 25rem; padding: 0px; border: 0px"
+            >
+              <img
+                class="card-img-top rounded"
+                src="images/igor.jpg"
+                alt="Card image cap"
+              />
+              <div class="card-body">
+                <h5 class="card-title">IGOR</h5>
+                <p class="card-text overflow-auto">
+                  Tyler The Creator really wanted to perfect his craft with this
+                  album after coming out with his previous project that really
+                  showed how versitile and intimiate Tyler could be.
+                </p>
+                <h4 class="card-text">Best track off album</h4>
+                <!--The template below is perfect for the cards-->
+                <iframe
+                  style="border-radius: 12px"
+                  src="https://open.spotify.com/embed/track/0fv2KH6hac06J86hBUTcSf?utm_source=generator"
+                  width="366px"
+                  height="82vw"
+                  frameborder="0"
+                  allowfullscreen=""
+                  allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+                  loading="lazy"
+                ></iframe>
+                <div class="card-footer">
+                  <a href="checkout.html" class="btn btn-primary"
+                    >Add to cart</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div
+              class="card h-100"
+              style="width: 25rem; padding: 0px; border: 0px"
+            >
+              <img
+                class="card-img-top rounded"
+                src="images/tpab.jpg"
+                alt="Card image cap"
+              />
+              <div class="card-body">
+                <h5 class="card-title">To Pimp A Butterfly</h5>
+                <p class="card-text">
+                  Kendrick Lamar's "To Pimp a Butterfly" is nothing short of a
+                  hip-hop masterpiece. This album delves deep into the
+                  complexities of identity, race, and society. It's a lyrical
+                  and sonic journey that challenges the status quo and delivers
+                  messages that resonate with the soul.
+                </p>
+                <h4 class="card-text">Best track off album</h4>
+                <!--The template below is perfect for the cards-->
+                <iframe
+                  style="border-radius: 12px"
+                  src="https://open.spotify.com/embed/track/0N3W5peJUQtI4eyR6GJT5O?utm_source=generator"
+                  width="366px"
+                  height="82vw"
+                  frameborder="0"
+                  allowfullscreen=""
+                  allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+                  loading="lazy"
+                >
+                </iframe>
+                <div class="card-footer">
+                  <a href="checkout.html" class="btn btn-primary"
+                    >Add to cart</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div
+              class="card h-100"
+              style="width: 25rem; padding: 0px; border: 0px"
+            >
+              <img
+                class="card-img-top rounded"
+                src="https://upload.wikimedia.org/wikipedia/en/c/cf/Denzel_Curry_-_Melt_My_Eyez_See_Your_Future.png"
+                alt="Card image cap"
+              />
+              <div class="card-body h-100">
+                <h5 class="card-title">Melt My Eyez See Your Future</h5>
+                <p class="card-text overflow-auto">
+                  Denzel Curry's "Melt My Eyez See Your Future" pushes the
+                  boundaries of contemporary rap. It's a sonic explosion that
+                  fuses experimental sounds with raw emotion. This album is not
+                  just music; it's a statement of artistic freedom. If you're
+                  looking for a transformative listening experience, this is the
+                  album to own.
+                </p>
+                <h4 class="card-text">Best track off album</h4>
+                <!--The template below is perfect for the cards-->
+                <iframe
+                  style="border-radius: 12px"
+                  src="https://open.spotify.com/embed/track/1q8DwZtQen5fvyB7cKbShC?utm_source=generator"
+                  width="366px"
+                  height="82vw"
+                  frameborder="0"
+                  allowfullscreen=""
+                  allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+                  loading="lazy"
+                >
+                </iframe>
+                <div class="card-footer">
+                  <a href="checkout.html" class="btn btn-primary">Add to cart</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div
+              class="card h-100"
+              style="width: 25rem; padding: 0px; border: 0px"
+            >
+              <img
+                class="card-img-top rounded"
+                src="https://cdn11.bigcommerce.com/s-w8qmypftv/images/stencil/1280x1280/products/1542044/3226071/MTItNzM0Mi5qcGVn__30963.1674134022.jpg?c=2"
+                alt="Card image cap"
+                height="398px"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Last Year Was Weird Vol.2</h5>
+                <p class="card-text">
+                  Tkay Maidza's "Last Year Was Weird" is a breath of fresh air
+                  in the music industry. With its genre-blurring tracks and
+                  Tkay's infectious energy, it's an album that can't be confined
+                  to one style. From trap to pop to dance, this album keeps you
+                  grooving from start to finish. It's a testament to Tkay's
+                  versatility as an artist.
+                </p>
+                <h4 class="card-text">Best track off album</h4>
+                <!--The template below is perfect for the cards-->
+                <iframe
+                  style="border-radius: 12px"
+                  src="https://open.spotify.com/embed/track/0F2gXzgbzLvK9LrS7yKS8Q?utm_source=generator"
+                  width="366px"
+                  height="82vw"
+                  frameborder="0"
+                  allowfullscreen=""
+                  allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+                  loading="lazy"
+                >
+                </iframe>
+                <div class="card-footer">
+                  <a href="checkout.html" class="btn btn-primary">Add to cart</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div
+              class="card h-100"
+              style="width: 25rem; padding: 0px; border: 0px"
+            >
+              <img
+                class="card-img-top rounded"
+                src="https://m.media-amazon.com/images/I/713Ggxl50WL._UF350,350_QL50_.jpg"
+                alt="Card image cap"
+              />
+              <div class="card-body">
+                <h5 class="card-title">The Forever Story</h5>
+                <p class="card-text overflow-auto">
+                  The album takes you on a poignant journey through JID's
+                  introspective thoughts, exploring themes of self-discovery,
+                  struggle, and the quest for success. With tracks like 'Hymn'
+                  and 'Skrawberries,' JID invites you to look deep within
+                  yourself while grooving to the rhythm.
+                </p>
+                <h4 class="card-text">Best track off album</h4>
+                <!--The template below is perfect for the cards-->
+                <iframe
+                  style="border-radius: 12px"
+                  src="https://open.spotify.com/embed/track/3utisM1p90YUtH7yjXyrrY?utm_source=generator"
+                  width="366px"
+                  height="82vw"
+                  frameborder="0"
+                  allowfullscreen=""
+                  allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+                  loading="lazy"
+                >
+                </iframe>
+                <div class="card-footer">
+                  <a href="checkout.html" class="btn btn-primary">Add to cart</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div
+              class="card h-100"
+              style="width: 25rem; padding: 0px; border: 0px"
+            >
+              <img
+                class="card-img-top rounded"
+                src="https://m.media-amazon.com/images/I/81ULAWWmM8L._UF1000,1000_QL80_.jpg"
+                alt="Card image cap"
+              />
+              <div class="card-body">
+                <h5 class="card-title">MM.. FOOD</h5>
+                <p class="card-text">
+                  'MM..FOOD' is a classic in the hip-hop world. It's a
+                  mind-bending, genre-blending journey that's a must-listen for
+                  any hip-hop fan. For those who crave clever rhymes, unique
+                  concepts, and a touch of humor, 'MM..FOOD' is a treat for your
+                  ears. Dig into this hip-hop classic and savor the experience.
+                </p>
+                <h4 class="card-text">Best track off album</h4>
+                <!--The template below is perfect for the cards-->
+                <iframe
+                  style="border-radius: 12px"
+                  src="https://open.spotify.com/embed/track/4BnrGx9tWNF8aiXl1UhDBa?utm_source=generator"
+                  width="366px"
+                  height="82vw"
+                  frameborder="0"
+                  allowfullscreen=""
+                  allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+                  loading="lazy"
+                >
+                </iframe>
+                <div class="card-footer">
+                  <a href="checkout.html" class="btn btn-primary">Add to cart</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
-    </div>
-    </div>
-    <div class="col-md-4">
-    <div class="card h-auto" style="width: 25rem; padding: 0px; border: 0px;">
-      <img class="card-img-top rounded" src="images/tpab.jpg" alt="Card image cap">
-    <div class="card-body">
-        <h5 class="card-title">To Pimp A Butterfly</h5>
-        <p class="card-text h-25">
-          Kendrick Lamar's "To Pimp a Butterfly" is nothing short of a hip-hop masterpiece. This album delves deep into the complexities of identity, race, and society. It's a lyrical and sonic journey that challenges the status quo and delivers messages that resonate with the soul.
-        </p>
-        <h4 class="card-text">Best track off album</h4>
-        <!--The template below is perfect for the cards-->
-        <iframe 
-        style="border-radius:12px" 
-        src="https://open.spotify.com/embed/track/0N3W5peJUQtI4eyR6GJT5O?utm_source=generator" 
-        width="366px"
-        height="82vw"
-        frameBorder="0" 
-        allowfullscreen="" 
-        allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" 
-        loading="lazy">
-      </iframe>
-        <a href="checkout.html" class="btn btn-primary">Add to cart</a>
+      <div class="container social-box">
+        <br />
+        <h3>Follow Us</h3>
+        <div class="social-icons">
+          <a href="homepage.html">
+            <img
+              src="https://cdn3.iconfinder.com/data/icons/glypho-social-and-other-logos/64/logo-facebook-512.png"
+              alt="facebook icon"
+              height="25px"
+            />
+          </a>
+          <a href="#">
+            <img
+              src="https://cdn-icons-png.flaticon.com/512/733/733635.png"
+              alt="twitter icon"
+              height="25px"
+          /></a>
+          <a href="#">
+            <img
+              src="https://cdn-icons-png.flaticon.com/512/1384/1384031.png"
+              alt="instagram icon"
+              height="25px"
+            />
+          </a>
+        </div>
       </div>
-    </div>
-    </div>
-    <div class="col-md-4">
-    <div class="card mb-md-5" style="width: 25rem; padding: 0px; border: 0px;">
-      <img class="card-img-top rounded" src="https://upload.wikimedia.org/wikipedia/en/c/cf/Denzel_Curry_-_Melt_My_Eyez_See_Your_Future.png" alt="Card image cap">
-      <div class="card-body h-100">
-        <h5 class="card-title">Melt My Eyez See Your Future</h5>
-        <p class="card-text overflow-auto">
-          Denzel Curry's "Melt My Eyez See Your Future" pushes the boundaries of contemporary rap. It's a sonic explosion that fuses experimental sounds with raw emotion. This album is not just music; it's a statement of artistic freedom. If you're looking for a transformative listening experience, this is the album to own.
-        </p>
-        <h4 class="card-text">Best track off album</h4>
-        <!--The template below is perfect for the cards-->
-        <iframe 
-        style="border-radius:12px" 
-        src="https://open.spotify.com/embed/track/1q8DwZtQen5fvyB7cKbShC?utm_source=generator" 
-        width="366px"
-        height="82vw" 
-        frameBorder="0" 
-        allowfullscreen="" 
-        allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" 
-        loading="lazy">
-      </iframe>
-        <a href="checkout.html" class="btn btn-primary">Add to cart</a>
-      </div>
-    </div>
-  </div>
-    <div class="col-md-4">
-    <div class="card mb-md-5" style="width: 25rem; padding: 0px; border: 0px;">
-      <img class="card-img-top rounded" src="https://cdn11.bigcommerce.com/s-w8qmypftv/images/stencil/1280x1280/products/1542044/3226071/MTItNzM0Mi5qcGVn__30963.1674134022.jpg?c=2" alt="Card image cap" height="398px">
-      <div class="card-body">
-        <h5 class="card-title">Last Year Was Weird Vol.2 </h5>
-        <p class="card-text">
-          Tkay Maidza's "Last Year Was Weird" is a breath of fresh air in the music industry. With its genre-blurring tracks and Tkay's infectious energy, it's an album that can't be confined to one style. From trap to pop to dance, this album keeps you grooving from start to finish. It's a testament to Tkay's versatility as an artist.
-        </p>
-        <h4 class="card-text">Best track off album</h4>
-        <!--The template below is perfect for the cards-->
-        <iframe 
-        style="border-radius:12px" 
-        src="https://open.spotify.com/embed/track/0F2gXzgbzLvK9LrS7yKS8Q?utm_source=generator" 
-        width="366px"
-        height="82vw"
-        frameBorder="0" 
-        allowfullscreen="" 
-        allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" 
-        loading="lazy">
-      </iframe>
-        <a href="checkout.html" class="btn btn-primary">Add to cart</a>
-      </div>
-    </div>
-    </div>
-    <div class="col-md-4">
-    <div class="card mb-md-5" style="width: 25rem; padding: 0px; border: 0px;">
-      <img 
-      class="card-img-top rounded" 
-      src="https://m.media-amazon.com/images/I/713Ggxl50WL._UF350,350_QL50_.jpg" 
-      alt="Card image cap"
-      >
-      <div class="card-body">
-        <h5 class="card-title">The Forever Story</h5>
-        <p class="card-text overflow-auto">
-          The album takes you on a poignant journey through JID's introspective thoughts, exploring themes of self-discovery, struggle, and the quest for success. With tracks like 'Hymn' and 'Skrawberries,' JID invites you to look deep within yourself while grooving to the rhythm.
-        </p>
-        <h4 class="card-text">Best track off album</h4>
-        <!--The template below is perfect for the cards-->
-        <iframe 
-        style="border-radius:12px" 
-        src="https://open.spotify.com/embed/track/3utisM1p90YUtH7yjXyrrY?utm_source=generator" 
-        width="366px"
-        height="82vw"
-        frameBorder="0" 
-        allowfullscreen="" 
-        allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" 
-        loading="lazy">
-      </iframe>
-        <a href="checkout.html" class="btn btn-primary">Add to cart</a>
-      </div>
-    </div>
-    </div>
-    <div class="col-md-4">
-    <div class="card mb-md-5" style="width: 25rem; padding: 0px; border: 0px;">
-      <img class="card-img-top rounded" src="https://m.media-amazon.com/images/I/81ULAWWmM8L._UF1000,1000_QL80_.jpg" alt="Card image cap">
-      <div class="card-body">
-        <h5 class="card-title">The Forever Story</h5>
-        <p class="card-text">
-          'MM..FOOD' is a classic in the hip-hop world. It's a mind-bending, genre-blending journey that's a must-listen for any hip-hop fan.
-
-          For those who crave clever rhymes, unique concepts, and a touch of humor, 'MM..FOOD' is a treat for your ears. Dig into this hip-hop classic and savor the experience.
-        </p>
-        <h4 class="card-text">Best track off album</h4>
-        <!--The template below is perfect for the cards-->
-        <iframe style="border-radius:12px" 
-        src="https://open.spotify.com/embed/track/4BnrGx9tWNF8aiXl1UhDBa?utm_source=generator"        
-        width="366px"
-        height="82vw"
-        frameBorder="0" 
-        allowfullscreen="" 
-        allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" 
-        loading="lazy">
-      </iframe>
-        <a href="checkout.html" class="btn btn-primary">Add to cart</a>
-      </div>
-    </div>
-    </div>
-    <div class="container social-box">
-    <br>
-    <h3>Follow Us</h3>
-    <div class="social-icons">
-        <a href="homepage.html">
-          <img src="https://cdn3.iconfinder.com/data/icons/glypho-social-and-other-logos/64/logo-facebook-512.png" alt="facebook icon" height="25px">
-        </a>
-        <a href="#">
-          <img src="https://cdn-icons-png.flaticon.com/512/733/733635.png" alt="twitter icon" height="25px"></a>
-        <a href="#">
-          <img src="https://cdn-icons-png.flaticon.com/512/1384/1384031.png" alt="instagram icon" height="25px">
-        </a>
-    </div>
-    </div>
-  </main>
+    </main>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"

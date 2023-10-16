@@ -54,6 +54,21 @@
         background-color: #007bff;
         color: #fff;
       }
+      table {
+        border: solid 1px #000;
+      }
+      tr {
+        border: solid 1px #000;
+        padding: 3px;
+      }
+      td {
+        border: solid 1px #000;
+        padding: 3px;
+      }
+      th {
+        border: solid 1px #000;
+        padding: 3px;
+      }
     </style>
   </head>
   <body>
@@ -102,8 +117,35 @@
 
       <div class="product-details">
         <img src="images/igor.jpg" alt="Vinyl Record" />
-        <p class="product-title">Igor - Tyler The Creator</p>
-        <p>Price: $29.99</p>
+        <img src="images/tpab.jpg" alt="Vinyl Record" />
+        <img
+          src="https://upload.wikimedia.org/wikipedia/en/c/cf/Denzel_Curry_-_Melt_My_Eyez_See_Your_Future.png"
+          alt="Vinyl Record"
+        />
+        <table>
+          <tr>
+            <th>Artist</th>
+            <th>Album</th>
+            <th>Price</th>
+          </tr>
+          <tr>
+            <td>Tyler The Creator</td>
+            <td>Igor</td>
+            <td>$29.99</td>
+          </tr>
+          <tr>
+            <td>Kendrick Lamar</td>
+            <td>To Pimp A ButterFly</td>
+            <td>$19.99</td>
+          </tr>
+
+          <tr>
+            <td>Denzel Curry</td>
+            <td>Melt My Eyez See Your Future</td>
+            <td>$24.99</td>
+          </tr>
+        </table>
+        <p style="text-align: end; font-weight: 600">Total: 74.97</p>
       </div>
 
       <form>
@@ -132,10 +174,14 @@
           <input type="text" id="card" class="form-control" required />
         </div>
 
-        <button type="submit" class="btn btn-outline-success" style="margin-top: 10px;">Place Order</button>
+        <button
+          type="submit"
+          class="btn btn-outline-success"
+          style="margin-top: 10px"
+        >
+          Place Order
+        </button>
       </form>
-
-      <p class="total-price">Total Price: $29.99</p>
     </div>
   </body>
 </html>
