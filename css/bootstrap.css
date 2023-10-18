@@ -179,6 +179,12 @@
   --bs-form-valid-border-color: #75b798;
   --bs-form-invalid-color: #ea868f;
   --bs-form-invalid-border-color: #ea868f;
+  --text: #130e01;
+  --background: #fffaeb;
+  --primary: #ff8400;
+  --secondary: #fff5d6;
+  --accent: #cf4307;
+
 }
 
 *,
@@ -12064,5 +12070,13 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
-
+.text-body{
+  text-align: center;
+}
+.card-img-top{
+  background-color: var(--#ffaa6a);
+}
+.social-icons a{
+  padding-bottom: 30px;
+}
 /*# sourceMappingURL=bootstrap.css.map */

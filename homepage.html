@@ -3,26 +3,198 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Caro's Vinyls</title>
+    <title>Caros Vinyls</title>
     <link rel="stylesheet" href="css/bootstrap.css" />
+    <style>
+      li {
+        font-size: 25px;
+        padding: 25px;
+      }
+      input {
+        width: 25%;
+        height: 50px;
+        max-width: 400px;
+        min-width: 100px;
+      }
+      body {
+        background-color: #ffaa6a;
+      }
+      .jumbotron {
+        background-image: url("https://media.wired.com/photos/627e91e8ee686432b7db85ec/master/w_1600%2Cc_limit/Where-to-Buy-Vinyl-Records-Gear-GettyImages-145065188.jpg");
+        background-size: contain;
+        color: #ffaa6a;
+        text-align: center;
+        padding: 150px 0;
+      }
+
+      .jumbotron h1 {
+        font-size: 3rem;
+        font-weight: bolder;
+      }
+
+      .jumbotron p {
+        font-size: 2rem;
+        color: #ffaa6a;
+        font-weight: bolder;
+      }
+      .container {
+        margin-top: 30px;
+      }
+
+      .vinyl-card {
+        margin-bottom: 20px;
+      }
+
+      .vinyl-card img {
+        max-width: 100%;
+      }
+      .bordered-text {
+        -webkit-text-stroke: 1px black;
+      }
+      .row {
+        display: flex;
+        gap: 1.5em;
+      }
+      .col {
+        flex-basis: 100%;
+        flex-grow: 1;
+      }
+      p {
+        font-weight: 500;
+        font-size: 1.2em;
+      }
+      .social-box {
+        padding: 20px;
+        padding-bottom: 40px;
+        border-radius: 5px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        margin-top: 120px;
+        max-width: 500px;
+      }
+
+      .social-icons {
+        text-align: center;
+      }
+
+      .social-icons a {
+        color: #333;
+        text-decoration: none;
+        margin: 10px;
+      }
+      h3 {
+        padding-bottom: 40px;
+        text-align: center;
+      }
+    </style>
   </head>
   <body>
     <!-- beginning of the top nav bar with store logo and search bar -->
-    <nav class="navbar bg-body-tertiary" data-bs-theme="">
-      <div class="container">
-        <a class="navbar-brand" href="#">
-          <img
-            src="images/Capture.JPG"
-            alt="store logo"
-            width="170"
-            height="100"
-          />
+    <nav
+      class="navbar navbar-expand-lg bg-light sticky-top"
+      data-bs-theme="light"
+    >
+      <div class="container-fluid">
+        <a class="navbar-brand" href="homepage.html">
+          <img src="images/Capture.JPG" width="200px" />
         </a>
+        <div class="collapse navbar-collapse" id="navbarColor02">
+          <ul class="navbar-nav me-auto">
+            <li class="nav-item">
+              <a class="nav-link active" href="homepage.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <input
+                type="text"
+                class="form-control custom-input"
+                placeholder="search"
+              />
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="products.html">Products</a>
+            </li>
+          </ul>
+        </div>
+        <ul class="navbar-nav me-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="user-sign-in.html">Login</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="user-registration.html">Register</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="checkout.html">
+              <img src="images/shopping cart.JPG-1.png" width="70px" />
+            </a>
+          </li>
+        </ul>
       </div>
     </nav>
     <!-- beginning of second nav bar containing links to other parts of site -->
-    <nav>
 
-    </nav>
+    <!-- Two paragraphs of text describing the page slightly -->
+    <main>
+      <div class="jumbotron">
+      </div>
+      <div class="container">
+        <div class="row">
+          <p class="col-md-6">
+            Welcome to caros vinyl shop! Here we have a great seletion of
+            amazing vinyls and records that are sure to satisfy anyone's need
+            for progressive and award winning music.
+          </p>
+          <p class="col-md-6">
+            Located here in beautiful Phoenix, AZ, caros vinyls was established
+            in 2023 and continues to serve the community the best music and the latest releases for you to enjoy at home
+          </p>
+          <ul class="col-md-6">
+            <li>
+              Explore the page using the navigation links and images at the top
+              of the page.
+            </li>
+            <li>
+              Visit the products page to view vinyls on sale and add them to
+              your cart for purchase :)
+            </li>
+          </ul>
+          <img
+            src="images/record-store.jpg"
+            alt="inside store picutre"
+            class="col-lg-5"
+            style="padding-bottom: 150px;"
+          />
+        </div>
+      </div>
+      <div class="container social-box">
+        <br />
+        <h3>Follow Us</h3>
+        <div class="social-icons">
+          <a href="homepage.html">
+            <img
+              src="https://cdn3.iconfinder.com/data/icons/glypho-social-and-other-logos/64/logo-facebook-512.png"
+              alt="facebook icon"
+              height="25px"
+            />
+          </a>
+          <a href="homepage.html">
+            <img
+              src="https://cdn-icons-png.flaticon.com/512/733/733635.png"
+              alt="twitter icon"
+              height="25px"
+          /></a>
+          <a href="homepage.html">
+            <img
+              src="https://cdn-icons-png.flaticon.com/512/1384/1384031.png"
+              alt="instagram icon"
+              height="25px"
+            />
+          </a>
+        </div>
+      </div>
+      <script
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"
+      ></script>
+    </main>
   </body>
 </html>
