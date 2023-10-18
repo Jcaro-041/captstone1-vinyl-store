@@ -1,6 +1,7 @@
 # Captstone 1 Project: E-commerce website
 ## Page 1: Homepage
 This page is what the consumer would be directed to immedietly view and would use to navigate the rest of the site. The color scheme and nav bar are established here and follow the user through the other pages. 
+![Image of homepage](.images/homepage.jpg)
 ## Page 2: Log in 
 This page consists of what a typical log in page would have. There are input fields available so that a user could log back into an account that they would have. Bootstrap is great so it made this page easy to make and also added nice quality of life adjustments that allow for users to see if the fields are improperly filled 
 ## Page 3: Register
